@@ -31,5 +31,12 @@
 .nav-link:hover {
   color: #0dafcf!important;
 }
+.btn-success{
+  background-color: #0ab060!important;
+}
+.btn-success:hover {
+  background-color: #0dafcf!important;
+}
+
 
 

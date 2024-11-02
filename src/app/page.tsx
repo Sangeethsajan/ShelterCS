@@ -1,6 +1,11 @@
 import { url } from "inspector";
+import CS from "../Images/CS.png";
+import SS from "../Images/SS.png";
+import HS from "../Images/HS.png";
+import OS from "../Images/OS.png";
 import ShelterCSBanner from "../Images/ShelterBanner.png";
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="container-fluid">
@@ -72,6 +77,115 @@ export default function Home() {
                 survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="display-2 text-center font shelterGreen">We Offer</div>
+      <div className="row justify-content-center mt-3">
+        <div className="col-md-4 m-1 justify-content-center">
+          <div className="card mb-3 h-100">
+            <div className="row g-0 h-100">
+              <div
+                className="col-md-4"
+                style={{
+                  backgroundImage: `url(${CS.src})`,
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="col-md-7">
+                <div className="card-body">
+                  <h5 className="card-title fs-2 font">
+                    Community Living Services
+                  </h5>
+
+                  <Link
+                    className="stretched-link btn btn-success"
+                    href="/Services/community-living-services"
+                  >
+                    More Details{" "}
+                    <i className="bi bi-arrow-up-right-circle-fill"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 m-1">
+          <div className="card mb-3 h-100">
+            <div className="row g-0 h-100">
+              <div
+                className="col-md-4"
+                style={{
+                  backgroundImage: `url(${SS.src})`,
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="col-md-7">
+                <div className="card-body">
+                  <h5 className="card-title fs-2 font">Specialized Services</h5>
+
+                  <Link
+                    className="stretched-link btn btn-success"
+                    href="/Services/specialized-services"
+                  >
+                    More Details{" "}
+                    <i className="bi bi-arrow-up-right-circle-fill"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 m-1">
+          <div className="card mb-3 h-100">
+            <div className="row g-0 h-100">
+              <div
+                className="col-md-4"
+                style={{
+                  backgroundImage: `url(${HS.src})`,
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="col-md-7">
+                <div className="card-body">
+                  <h5 className="card-title fs-2 font">Health Services</h5>
+
+                  <Link
+                    className="stretched-link btn btn-success"
+                    href="/Services/health-services"
+                  >
+                    More Details{" "}
+                    <i className="bi bi-arrow-up-right-circle-fill"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 m-1">
+          <div className="card mb-3 h-100">
+            <div className="row g-0 h-100">
+              <div
+                className="col-md-4"
+                style={{
+                  backgroundImage: `url(${OS.src})`,
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="col-md-7">
+                <div className="card-body">
+                  <h5 className="card-title fs-2 font">Other Services</h5>
+
+                  <Link
+                    className="stretched-link btn btn-success"
+                    href="/Services/other-services"
+                  >
+                    More Details{" "}
+                    <i className="bi bi-arrow-up-right-circle-fill"></i>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

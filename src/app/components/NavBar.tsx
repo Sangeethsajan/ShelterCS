@@ -28,8 +28,14 @@ export default function NavBar() {
           <ul className="navbar-nav mb-2 mb-lg-0 col-lg-8 justify-content-center">
             <div className="row text-center">
               <div className="font fs-6 fw-bold shelterBlue">CONTACT US ON</div>
-              <div className="font shelterBlue fw-bold fs-2">
-                +1 900 000 0000
+              <div className=" ">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  className="shelterBlue font fw-bold fs-2"
+                  href="tel:+14697780051"
+                >
+                  +1 469 778 0051
+                </Link>
               </div>
               <div className="font shelterBlue fw-normal fst-italic fs-4">
                 "Unified Care for all your healthcare needs"

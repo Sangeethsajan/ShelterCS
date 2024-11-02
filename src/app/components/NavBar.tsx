@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-lg navbar-expand-lg bg-light">
       <div className="container-fluid p-3 ms-lg-5">
-        <Link className="navbar-brand shelterGreen" href="#">
+        <Link className="navbar-brand shelterGreen" href="/">
           <Image src={SCSLogo} height={100} alt="Picture of the author" />
         </Link>
 
@@ -22,22 +22,33 @@ export default function NavBar() {
           Hello
         </button>
         <div
-          className="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-center"
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav mb-2 mb-lg-0 justify-content-end me-lg-5">
+          <ul className="navbar-nav mb-2 mb-lg-0 col-lg-8 justify-content-center">
+            <div className="row text-center">
+              <div className="font fs-6 fw-bold shelterBlue">CONTACT US ON</div>
+              <div className="font shelterBlue fw-bold fs-2">
+                +1 900 000 0000
+              </div>
+              <div className="font shelterBlue fw-normal fst-italic fs-4">
+                "Unified Care for all your healthcare needs"
+              </div>
+            </div>
+          </ul>
+          <ul className="navbar-nav fw-normal fs-4 font mb-2 mb-lg-0 col-lg-4 me-lg-5 justify-content-end">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/">
+              <Link className="nav-link" aria-current="page" href="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href="/services">
+              <Link className="nav-link" aria-current="page" href="/Services">
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href="/contact">
+              <Link className="nav-link" aria-current="page" href="/Contact">
                 Contact
               </Link>
             </li>

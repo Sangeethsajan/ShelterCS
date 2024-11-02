@@ -1,6 +1,10 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 .shelterGreen{
   color: #0ab060;
-  font-weight: 200;
+} 
+.shelterBlue{
+  color: #0dafcf;
 } 
 .navbar{
   font-size: 20px;
@@ -13,3 +17,19 @@
 .font{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.number {
+  background: -webkit-linear-gradient(60deg, #0dafcf, #17ad14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: #0ab060!important;
+}
+
+.nav-link:focus, 
+.nav-link:hover {
+  color: #0dafcf!important;
+}
+
+

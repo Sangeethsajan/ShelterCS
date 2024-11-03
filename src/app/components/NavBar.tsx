@@ -38,7 +38,7 @@ export default function NavBar() {
                 </Link>
               </div>
               <div className="font shelterBlue fw-normal fst-italic fs-4">
-                "Unified Care for all your healthcare needs"
+                &quot;Unified Care for all your healthcare needs&quot;
               </div>
             </div>
           </ul>

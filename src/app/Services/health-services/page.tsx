@@ -1,4 +1,4 @@
-export default function Services() {
+export default function healthServices() {
   const healthServices = [
     {
       title: "Nursing services",
@@ -28,7 +28,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid">
       <div className="row justify-content-center mt-3">
         <div className="text-center display-4 font shelterBlue">
           Health Services
@@ -37,11 +37,11 @@ export default function Services() {
           <div className="col-md-8 fs-4 fst-italic text-center font lead">
             Health care services are any services that relate to the diagnosis,
             prevention, or treatment of a human disease or impairment. They can
-            also include the assessment of a person's health.
+            also include the assessment of a person&apos;s health.
           </div>
         </div>
         {healthServices.map((service) => (
-          <div className="col-10 m-3">
+          <div key={service.title} className="col-10 m-3">
             <div className="card">
               <h5 className="card-header text-success">{service.title}</h5>
               <div className="card-body">

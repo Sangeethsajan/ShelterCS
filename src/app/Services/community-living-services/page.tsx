@@ -1,4 +1,4 @@
-export default function Services() {
+export default function communityServices() {
   const communityServices = [
     {
       title: "Community First Choice (CFC)",
@@ -36,7 +36,7 @@ export default function Services() {
           </div>
         </div>
         {communityServices.map((service) => (
-          <div className="col-10 m-3">
+          <div key={service.title} className="col-10 m-3">
             <div className="card">
               <h5 className="card-header text-success">{service.title}</h5>
               <div className="card-body">

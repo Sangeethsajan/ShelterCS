@@ -89,7 +89,7 @@ export default function Footer() {
             className="text-reset fw-bold"
             href="https://unicareusa.com"
           >
-            unicareusa.com
+            Unicareusa.com
           </a>
         </div>
       </footer>

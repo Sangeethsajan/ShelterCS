@@ -37,6 +37,12 @@
 .btn-success:hover {
   background-color: #0dafcf!important;
 }
-
+.backgroundSB{
+  background-color: #0dafcf
+}
+a{
+  text-decoration: none!important;
+  
+}
 
 

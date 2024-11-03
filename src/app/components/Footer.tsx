@@ -34,7 +34,7 @@ export default function Footer() {
                 </p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold">Services</h6>
                 <p>
                   <Link href="/Services/community-living-services">

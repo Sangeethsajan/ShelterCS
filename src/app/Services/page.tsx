@@ -106,10 +106,10 @@ export default function Services() {
   ];
   return (
     <div className="container-fluid ">
-      <div className="row justify-content-center mt-5 shelterBlue display-2 font">
+      <div className="row justify-content-center mt-5 shelterBlue text-center display-2 font">
         Our Services
       </div>
-      <div className="row justify-content-center fs-4 font lead fst-italic">
+      <div className="row text-center justify-content-center fs-4 font lead fst-italic">
         Empowering Your Independence with Personalized Support and Solutions.
       </div>
       <div className="row justify-content-center mt-3">

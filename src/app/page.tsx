@@ -34,12 +34,10 @@ export default function Home() {
                 <i className="bi bi-person-arms-up"></i> Who We Are?
               </h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                We, Shelter Community Services is a texas based corporation
+                dedicated to provide compassionate care and support to
+                individuals with intellectual disabilities or related
+                conditions.
               </p>
             </div>
           </div>
@@ -51,12 +49,9 @@ export default function Home() {
                 <i className="bi bi-person-hearts"></i> What We Do?
               </h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                We deliver essential services, including residential support,
+                day habilitation, therapy, nursing, and adaptive aids, tailored
+                to help our clients live independently in their communities.
               </p>
             </div>
           </div>
@@ -68,12 +63,10 @@ export default function Home() {
                 <i className="bi bi-people-fill"></i> How We Help You?
               </h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                Our personalized programs supplement natural supports and ensure
+                access to Medicaid services like the HCS and TxHmL waivers,
+                promoting a higher quality of life with care that meets unique
+                needs.
               </p>
             </div>
           </div>
